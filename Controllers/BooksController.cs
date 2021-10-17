@@ -24,7 +24,7 @@ namespace LibApp.Controllers
                 Customers = customers
             };
 
-            return View(firstBook);
+            return View(viewModel);
         }
 
         public IActionResult Edit(int bookId)
